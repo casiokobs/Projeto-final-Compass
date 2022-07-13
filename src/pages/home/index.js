@@ -10,11 +10,24 @@ import { Link } from 'react-router-dom';
 function Home(){
     return (
         <div>
+
             <img className='bola' src={bola} alt='Logo compasso'></img>  
             <img className='logo' src={logo} alt='Logo compasso'></img>
             <div className='data'>
                 <h1 className='hora'><PegaHora /></h1>  
                 <p className='descricao-hora'><PegaData /></p>  
+            </div>
+            <div className='content'>
+                <h3>Our mission is</h3>
+                <p>Nossa missão é</p>
+                <h1>to transform the world</h1>
+                <p>transformar o mundo</p>
+                <h1>building digital experiences</h1>
+                <p>construindo experiências digitais</p>
+                <h1>that enable our client’s growth</h1>
+                <p>que permitam o crescimento dos nossos clientes</p>
+                
+                
             </div>
 
             <div>

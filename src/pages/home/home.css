@@ -97,7 +97,7 @@
   .descricao-hora{
     font-size: 14px;
     color: #222;
-    margin-top: -9vh;
+    margin-top: -2vh;
     margin-left: 94vh;
   }
   .data{
@@ -105,4 +105,23 @@
   }
   .cronometro{
     width: 11vh;
+  }
+  .content{
+    color: #C12D18;
+    margin-top: 15vh;
+    text-align: right;
+    margin-right: 6%;
+  }
+  .content p{
+    color: #222222;
+  }
+  .content h3, h1{
+    margin-bottom: -15px;
+  }
+  .content h3{
+    font-size: 25px;
+  }
+  .content h1{
+    font-size: 40px;
+    font-weight: 700;
   }

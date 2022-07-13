@@ -1,0 +1,108 @@
+.lista-botoes li{
+    right: 0;
+    padding :15%;
+    list-style-type: none;    
+  }
+  .lista-botoes{
+    margin-left: 50vh;
+  }
+  .lista-botoes ul{
+    display: flex;
+    float: right;
+  }
+  .sobre{
+    text-align:right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 2%;
+    width: 25%;
+    display: flex;
+    float: left;
+    margin-left: 10%;
+    padding-right: 5%;
+    height: 35px;
+    border-right: 1px solid white;
+  }
+  .div-timer{
+    margin-top: 1%;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    width: 5%;
+    text-align: right;
+  }
+  .timer{
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  .seconds{
+    margin-top: -6vh;
+    margin-left: 45%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+  }
+  .div-sobre{
+    display: flex;
+    height: 50px;
+  }
+  .bola{
+    width: 50vh;
+    position:fixed;
+    margin-left: 0;
+    margin-top: 25vh;
+  }
+  .logo{
+    margin-top: 3vh;
+    margin-left: 3vh;
+  }
+  
+  footer{
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(90.16deg, #33383D 0%, #1C1D20 100%);
+    color: white;
+  }
+  .open{
+    color: #C13216;
+    background-color: white;
+    margin-top: -8%;
+  }
+  .closed{
+    color: white;
+    margin-top: -8%;
+  }
+  .closed:hover{
+    transition: 1ms;
+    background-color: white;  
+  }
+  .closed a{
+    color: white;
+    text-decoration: none;
+  }
+  .closed:hover a{
+    color: #C13216;
+  }
+  .hora{
+    font-size: 100px;
+    color: #222;
+    margin-left: 90vh;
+  }
+  .descricao-hora{
+    font-size: 14px;
+    color: #222;
+    margin-top: -9vh;
+    margin-left: 94vh;
+  }
+  .data{
+    margin-top: -12vh;
+  }
+  .cronometro{
+    width: 11vh;
+  }

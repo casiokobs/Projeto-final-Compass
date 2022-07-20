@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.css';
 import PegaHora from '../../hora'
+import Previsao from '../../previsao';
 import PegaData from '../../data';
 import Timer from '../../timer';
 import bola from '../../imgs/bola.png';
@@ -10,7 +11,6 @@ import { Link } from 'react-router-dom';
 function Home(){
     return (
         <div>
-
             <img className='bola' src={bola} alt='Logo compasso'></img>  
             <img className='logo' src={logo} alt='Logo compasso'></img>
             <div className='data'>
@@ -26,8 +26,9 @@ function Home(){
                 <p>construindo experiências digitais</p>
                 <h1>that enable our client’s growth</h1>
                 <p>que permitam o crescimento dos nossos clientes</p>
-                
-                
+            </div>
+            <div className='previsao'>
+                <h1>Previsão<Previsao /></h1>
             </div>
 
             <div>

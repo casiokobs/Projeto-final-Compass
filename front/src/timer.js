@@ -1,3 +1,5 @@
+import removeToken from  "./removeToken";
+
 function timer() {
     function startTimer(duration) {
         var timer = duration,  seconds;
@@ -7,12 +9,12 @@ function timer() {
             var element = document.querySelector(".timer");
             element.innerHTML = seconds;
             if (--timer < 0) {
-                window.location.assign("http://localhost:3000/")
+                removeToken();
             }
         }, 1000);
     }
     window.onload = function () {
-        var display = startTimer(500000, display);
+        var display = startTimer(100, display);
     };
 }
 export default timer;

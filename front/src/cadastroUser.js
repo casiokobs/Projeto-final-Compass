@@ -20,7 +20,7 @@ function cadastroUser(e){
         if (typeof a === 'string') {
             alert(a);    
         }else{
-            window.location = '/'; 
+            window.location = '/home'; 
         }
     }
 }

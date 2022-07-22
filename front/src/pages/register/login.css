@@ -20,18 +20,6 @@
     color: #E0E0E0;
     width: 100%;
 }
-
-.logar{
-    height: 6vh;
-    border: none;
-    border-radius: 50px;
-    background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
-    box-shadow: 5px 5px 15px 0 rgba(0,0,0,.5);
-    margin-top: 15%;
-    width: 54vh;
-    color: white;
-    font-size: 15px;
-}
 .container{
     display: flex;
 }
@@ -76,6 +64,8 @@
     width: 10%;
 }
 .label-senha{
+    margin-right: 30px;
+    display: flex;
     color: #E9B425;
 }
 .label-senha-check{

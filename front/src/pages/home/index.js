@@ -7,8 +7,11 @@ import Timer from '../../timer';
 import bola from '../../imgs/bola.png';
 import logo from '../../imgs/LogoCompasso.png';
 import { Link } from 'react-router-dom';
+import checkToken from '../../checkToken';
+import removeToken from '../../removeToken';
 
 function Home(){
+    checkToken()
     return (
         <div>
             <img className='bola' src={bola} alt='Logo compasso'></img>  
@@ -28,7 +31,9 @@ function Home(){
                 <p>que permitam o crescimento dos nossos clientes</p>
             </div>
             <div className='previsao'>
-                <h1>Previsão<Previsao /></h1>
+                <p className='city'><Previsao /></p>
+                <h1 className='temp'><Previsao /></h1>
+                
             </div>
 
             <div>
@@ -45,7 +50,7 @@ function Home(){
                         <div className='lista-botoes'>
                             <ul>
                                 <li className='open'>Continuar Navegando</li>
-                               <li className='closed'><Link to="/"> Logout</Link></li>
+                               <li  onClick={removeToken} className='closed'><Link to="/" onClick={removeToken}> Logout</Link></li>
                             </ul>
                         </div>
                     </div>

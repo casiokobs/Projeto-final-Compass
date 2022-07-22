@@ -129,3 +129,42 @@
     margin-top: -66vh;
     margin-left: 189vh;
   }
+  @media screen and (max-width: 475px) {
+    .hora{
+      margin-top: 26%;
+      margin-left: 30%;
+      font-size: 50px;
+    }
+    .descricao-hora{
+      margin-left: 32%;
+      width: 50%;
+      margin-top: 2%;
+    }
+    .logo{
+      margin-top: 3vh;
+      margin-left: 25%;  
+    }
+    .previsao {
+      margin-left: 29%;
+      margin-top: -45vh;
+    }
+    .bola{
+      display: none;
+    }
+    .lista-botoes{
+      display: none;
+      margin-left: 10px;
+    }
+    .footer{
+      position: absolute;
+    }
+    .content h1 {
+      font-size: 20px;
+    }
+    .cronometro{
+      width: 0%;
+    }
+    .sobre {
+      display: none;
+    }
+  }

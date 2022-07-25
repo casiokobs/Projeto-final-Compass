@@ -165,7 +165,7 @@
       display: flex;
     }
     footer{
-      height: 301px;
+      height: 270px;
     }
     .hora {
       margin-top: 30%;
@@ -194,7 +194,7 @@
     }
     .lista-botoes{
       margin-left: -40px;
-      margin-top: 10%;
+      margin-top: -4%;
     }
     .lista-botoes ul {
       display: grid;

@@ -12,7 +12,7 @@ function Login(){
                 <div className='text-input'>
                     <h1>Olá,</h1>
                     <p>Para continuar navegando de forma segura, efetue o login na rede.</p>
-                    <h4 className='title-register'>Login</h4>
+                    <h4 className='title-login'>Login</h4>
                 </div>
                 <form id="form" onSubmit={getUser}>
                     <input type={'text'} id="email"  className='input-login' placeholder='Usuario'></input>   

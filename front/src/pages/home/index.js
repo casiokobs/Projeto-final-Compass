@@ -42,10 +42,10 @@ function Home(){
                         <p className='sobre'>Essa janela do navegador é usada para manter sua sessão de autenticação ativa. Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.</p>
                         <div className='div-timer'>
                             <p>Application refresh in</p>
-                        </div>
-                        <div className='cronometro'>
-                            <p className='timer'><Timer /></p><br></br>
-                            <p className='seconds'>Seconds</p>
+                            <div className='cronometro'>
+                                <p className='timer'><Timer /></p><br></br>
+                                <p className='seconds'>Seconds</p>
+                            </div>
                         </div>
                         <div className='lista-botoes'>
                             <ul>

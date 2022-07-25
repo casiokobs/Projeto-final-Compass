@@ -14,7 +14,7 @@ function timer() {
         }, 1000);
     }
     window.onload = function () {
-        var display = startTimer(100, display);
+        var display = startTimer(600, display);
     };
 }
 export default timer;

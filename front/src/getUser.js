@@ -12,10 +12,8 @@ async function getUser(e){
         headers: {"Content-type": "application/json; charset=UTF-8"}
     })
     .then(resposta=>{
-        console.log(resposta);
         return resposta.json();
     }).then((result) => {
-        console.log(result);
         if(result.msg === "autenticado"){
             localStorage.setItem('token', result.token);
             window.location = '/home'; 
@@ -23,7 +21,6 @@ async function getUser(e){
             document.getElementById('lable-alert').classList.remove('hiden');
          }
     }).catch(err =>{
-        console.log(err)
     }) 
 }
 

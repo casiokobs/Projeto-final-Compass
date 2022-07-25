@@ -6,7 +6,6 @@ function cadastroUser(e){
         email: user,
         password: senha, 
     }
-    console.log(JSON.stringify(_data));
     fetch('http://localhost:4000/user', {
             method: 'POST',
             body:

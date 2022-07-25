@@ -130,13 +130,50 @@
     margin-left: 189vh;
   }
   @media screen and (max-width: 475px) {
-    .hora{
-      margin-top: 26%;
-      margin-left: 30%;
-      font-size: 50px;
+    .sobre {
+      text-align: center;
+      margin-top: 2%;
+      width: 85%;
+      display: flex;
+      float: left;
+      margin-left: 5%;
+      padding-right: 5%;
+      border-bottom: 1px solid white;
+      border-right: none;
+      padding-bottom: 10%;
     }
-    .descricao-hora{
-      margin-left: 32%;
+    .div-timer {
+      margin-left: 15%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 100;
+      width: 65%;
+      text-align: center;
+    }
+    .seconds {
+      margin-top: -6vh;
+      margin-left: 200%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+    }  
+
+    .div-sobre {
+      display: inline;
+      height: 50px;
+    }
+    .footer{
+      display: flex;
+    }
+    footer{
+      height: 301px;
+    }
+    .hora {
+      margin-top: 30%;
+      margin-left: 5%;
+      font-size: 40px;
+    } 
+    .descricao-hora {
+      margin-left: 5%;
       width: 50%;
       margin-top: 2%;
     }
@@ -145,15 +182,32 @@
       margin-left: 25%;  
     }
     .previsao {
-      margin-left: 29%;
-      margin-top: -45vh;
+      margin-left: 70%;
+      margin-top: -53vh;
+    }
+    .temp{
+      margin-top: -10%;
+      color: #222;
     }
     .bola{
       display: none;
     }
     .lista-botoes{
-      display: none;
-      margin-left: 10px;
+      margin-left: -40px;
+      margin-top: 10%;
+    }
+    .lista-botoes ul {
+      display: grid;
+      float: inherit;
+    }
+    .lista-botoes li {
+      padding: 5%;
+      margin: 0%;
+    }
+    .timer {
+      margin-left: 40%;
+      margin-top: 0px;
+      font-size: 30px;
     }
     .footer{
       position: absolute;
@@ -162,9 +216,8 @@
       font-size: 20px;
     }
     .cronometro{
-      width: 0%;
+      width: 2%;
+      margin-left: 35%;
     }
-    .sobre {
-      display: none;
-    }
+
   }

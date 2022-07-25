@@ -129,9 +129,6 @@
         margin: 10% 0% 0% 10%;
         
     }
-    .text-input h4 {
-        margin-bottom: 10%;
-    }
     .logar {
         margin-top: 10%;
         width: 90%;
@@ -139,6 +136,15 @@
     }
 }
 @media screen and (max-width: 475px) {
+    .text-input h1 {
+        font-size: 45px;
+    }
+    .text-input {
+        margin: 20% 0% 0% 10%;
+    }
+    .text-input p {
+        width: 81%;
+    }
     .div-input {
         background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
         width: 100%;
@@ -152,24 +158,33 @@
         margin: 0 auto 0 auto;
         width: 75%;
     }
-    .div-img {
-        display: none;
-    } 
     form{
+        margin-top: -50%;
         margin-left: 10%;
         padding-right: 9%;
     }
     .input-login, .input-email {
         width: 95%;
-        margin-bottom: 1%;
+        margin-bottom: 10%;
     }
     .logar {
         margin-top: 10%;
         width: 100%;
         font-size: 15px;
     }
-    .text-input h4 {
-        margin-bottom: 0%;
+    .title-register{
+        margin-bottom: 25%;
+    }
+    .title-login{
+        margin-bottom: -30%;
+        margin-top: 20%;
+    }
+    .img-logo {
+        margin-top: 6%;
+        margin-left: 25%;
+        width: 50%;
+        position: absolute;
     }
 }
+
 
